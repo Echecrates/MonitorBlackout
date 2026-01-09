@@ -24,7 +24,7 @@ WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRI
 
 (3) Run the script from Task scheduler (with or without the VBScript Wrapper).
 
-# Current issues (v1.0, 09/01/2026)
+# Current issues (v1.0.0, 09/01/2026)
 - The screen does not always black out after 6 seconds; it seems to take a multiple of 6 seconds (can be 12, 18 or longer).
 - The script does not always respond to the hotkey.
 - The black window is a powershell and application-level window; it would be better if it was not visible this way.
