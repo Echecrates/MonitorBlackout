@@ -32,3 +32,4 @@ WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRI
 - The black window is a powershell and application-level window, and consequently shows up when switching between windows using the Alt + Tab menu, and becomes undimmed when hovering over an active window on the screen in the taskbar. 
 - The system tray icon is not consistent. Sometimes it is a multicoloured shield, at other times it is a blue icon with an "i".
 - The hotkey may conflict with the Ctrl + Alt + B "Toggle Radeon Boost" Hotkey in AMD's Graphics Software
+- "How to" should be updated and/or the launch options should be redone and better integrated into the software and repository.
