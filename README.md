@@ -1,5 +1,5 @@
 # MonitorBlackout
-This is a Powershell script that blacks out a (second) monitor. Users can disable/re-enable the script with a hotkey (Ctrl + Alt + B); a system tray icon shows whether it is enabled or disabled.
+This is a Powershell script that blacks out a (second) monitor. Users can disable/re-enable the script with a hotkey (Ctrl + Alt + B) and a system tray icon shows whether it is enabled or disabled.
 When enabled, after 6 seconds the chosen monitor is covered by a black window, giving the impression that the screen is dimmed or turned off. Users can undim the screen by right-clicking anywhere on it.
 
 The script is useful if you would like to (for example) use only one monitor and keep your workspace as free from distractions as possible.
