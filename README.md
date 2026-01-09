@@ -1,3 +1,25 @@
 # MonitorBlackout
-Powershell script that blacks out a second monitor, which can be disabled with a hotkey and has a sytem tray icon
+This is a Powershell script that blacks out a second monitor. The script can be disabled/re-enabled with a hotkey (ctrl + alt + b) and it has a sytem tray icon that shows if it is enabled or disabled.
+When the script is running and enabled, the second monitor goes black (is covered by a black window) after 6 seconds. You can "unblacken" the screen by right clicking anywhere on it.
+
+The script is useful if you (for example) would like to keep your workspace as free from distractions as possible.
+
 Created with the help of Google Gemini and ChatGPT
+
+# How to
+There are currently several (3) options whereby you can use this script. Methods 1+2 is recommended, the other methods may require tinkering by yourself
+
+(1) Run the script directly (save as MonitorBlackout.ps1 and launch in powershell)
+
+(2) tested and working: powershell script (with VBScript Wrapper) 
+(2A) VBScript Wrapper:
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRIPT.PS1""", 0, False
+-> save as LaunchBlackout.vbs file
+
+(3) run the script from Task scheduler (with or without the VBScript Wrapper)
+
+# Current issues (v1.0)
+- The screen does not always black out after 6 seconds; it seems to take a multiple of 6 seconds (can be 12, 18 or longer)
+- The script does not always respond to the hotkey
+- The black window is a powershell window and application-level window; it would be better if it was not visible this way
