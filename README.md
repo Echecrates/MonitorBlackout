@@ -9,11 +9,13 @@ The script was created with help from Google Gemini and OpenAI ChatGPT. Users ar
 # How to
 Users may have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the location where logging should be done.
 
-There are currently several **(3) options whereby you can use this script.** Method(s) 1+2 is/are recommended, the other methods may require further tinkering by yourself.
+There are **(3) tested ways of launching the script.** M
 
-**(1)** Run the script directly (save as MonitorBlackout.ps1 and launch in powershell).
+**(1)** Run the script directly 
 
-**(2)** Tested and working: powershell script (with VBScript Wrapper).
+Save as MonitorBlackout.ps1 and launch in powershell.
+
+**(2)** Advised: run with a VBScript Wrapper. This avoids several bugs.
 
 **(2A) **VBScript Wrapper:
 
