@@ -17,10 +17,10 @@ Save as MonitorBlackout.ps1 and launch in powershell.
 
 **(2)** Advised: run with a VBScript Wrapper. This avoids several bugs.
 
-**(2A) **VBScript Wrapper:
+VBScript Wrapper:
 
-Set WshShell = CreateObject("WScript.Shell")
-WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRIPT.PS1""", 0, False
+"Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRIPT.PS1""", 0, False"
 
 -> save as LaunchBlackout.vbs file and launch this file.
 
