@@ -11,9 +11,10 @@ It is possible that you have to edit the script for minor settings changes and t
 
 There are currently several (3) options whereby you can use this script. Method(s) 1+2 is/are recommended, the other methods may require further tinkering by yourself.
 
-(1) Run the script directly (save as MonitorBlackout.ps1 and launch in powershell)
+(1) Run the script directly (save as MonitorBlackout.ps1 and launch in powershell).
 
 (2) Tested and working: powershell script (with VBScript Wrapper).
+
 (2A) VBScript Wrapper:
 
 Set WshShell = CreateObject("WScript.Shell")
@@ -28,4 +29,4 @@ WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRI
 - The script does not always respond to the hotkey.
 - The black window is a powershell and application-level window; it would be better if it was not visible this way.
 - The system tray icon is not consistent. Sometimes it is a multicoloured shield, at other times it is a blue icon with an "i".
-- The hotkey may conflict with the Ctrol + Alt + B "Toggle Radeon Boost" Hotkey in AMD's Graphics Software
+- The hotkey may conflict with the Ctrl + Alt + B "Toggle Radeon Boost" Hotkey in AMD's Graphics Software
