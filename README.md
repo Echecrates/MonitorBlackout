@@ -2,7 +2,7 @@
 This is a Powershell script that blacks out a (second) monitor. Users can disable/re-enable the script with a hotkey (Ctrl + Alt + B) and a system tray icon shows whether it is enabled or disabled.
 When enabled, the chosen monitor is covered by a black window after 6 seconds, giving the impression that the screen is dimmed or turned off. Users can undim the screen by right-clicking anywhere on it.
 
-The script is useful if you would like to dim a specific monitor and keep your workspace as free from distractions as possible. It is more convenient than turning off the dimmed monitor, which requires a button press and which reorders your windows.
+The script is useful if you would like to dim a specific monitor while keeping other monitor(s) on, thereby keeping your workspace free from distraction. It is more convenient than turning off the dimmed monitor, which requires a button press and potentially reorders windows.
 
 The script was created with help from Google Gemini and OpenAI ChatGPT.
 
