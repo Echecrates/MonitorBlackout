@@ -7,7 +7,7 @@ The script is useful if you would like to dim a specific monitor while keeping o
 The script was created with help from Google Gemini and OpenAI ChatGPT.
 
 # How to
-It is possible that you have to edit the script for minor setting changes and tweaks, including setting the correct monitor to blackout and the log location.
+It is possible that you have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the log location.
 
 There are currently several (3) options whereby you can use this script. Method(s) 1+2 is/are recommended, the other methods may require further tinkering by yourself.
 
