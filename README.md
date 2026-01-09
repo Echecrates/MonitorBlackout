@@ -4,7 +4,8 @@ When the script is running and enabled, the chosen monitor goes black (is covere
 
 The script is useful if you (for example) would like to use only one monitor and keep your workspace as free from distractions as possible.
 https://github.com/Echecrates/MonitorBlackout/blob/main/README.md
-Created with the help of Google Gemini and ChatGPT.
+
+The script was created with help from Google Gemini and OpenAI ChatGPT.
 
 # How to
 It is possible that you have to edit the script for minor setting changes and tweaks, including setting the correct monitor to blackout and the log location.
