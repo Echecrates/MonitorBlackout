@@ -3,7 +3,7 @@ This is a Powershell script that blacks out a (second) monitor. The script can b
 When the script is running and enabled, the chosen monitor goes black (is covered by a black window) after 6 seconds. You can "unblacken" the screen by right clicking anywhere on it.
 
 The script is useful if you (for example) would like to use only one monitor and keep your workspace as free from distractions as possible.
-
+https://github.com/Echecrates/MonitorBlackout/blob/main/README.md
 Created with the help of Google Gemini and ChatGPT.
 
 # How to
@@ -23,7 +23,7 @@ WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRI
 
 (3) Run the script from Task scheduler (with or without the VBScript Wrapper).
 
-# Current issues (v1.0)
+# Current issues (v1.0, 09/01/2026)
 - The screen does not always black out after 6 seconds; it seems to take a multiple of 6 seconds (can be 12, 18 or longer).
 - The script does not always respond to the hotkey.
 - The black window is a powershell and application-level window; it would be better if it was not visible this way.
