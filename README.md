@@ -4,10 +4,10 @@ When enabled, the chosen monitor is covered by a black window after 6 seconds, g
 
 The script is useful if you would like to dim a specific monitor while keeping other monitor(s) on, thereby keeping your workspace free from distraction. It is more convenient than turning off the dimmed monitor, which requires a button press and potentially reorders windows.
 
-The script was created with help from Google Gemini and OpenAI ChatGPT.
+The script was created with help from Google Gemini and OpenAI ChatGPT. Users are advised to make changes to the script with the help of Gemini, since it provided most of the code.
 
 # How to
-It is possible that you have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the log location.
+Users may have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the location where logging should be done.
 
 There are currently several **(3) options whereby you can use this script.** Method(s) 1+2 is/are recommended, the other methods may require further tinkering by yourself.
 
