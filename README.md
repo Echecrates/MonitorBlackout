@@ -9,7 +9,7 @@ The script was created with help from Google Gemini and OpenAI ChatGPT. Users ar
 # How to
 Users may have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the location where logging should be done.
 
-There are **(3) tested ways of launching the script.** M
+There are **(3) tested ways of launching the script.** 
 
 **(1)** Run the script directly 
 
@@ -22,7 +22,7 @@ Save as MonitorBlackout.ps1 and launch in powershell.
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRIPT.PS1""", 0, False
 
--> save as LaunchBlackout.vbs file
+-> save as LaunchBlackout.vbs file and launch this file.
 
 **(3)** Run the script from Task scheduler (with or without the VBScript Wrapper).
 
