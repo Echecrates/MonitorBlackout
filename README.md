@@ -9,20 +9,20 @@ The script was created with help from Google Gemini and OpenAI ChatGPT.
 # How to
 It is possible that you have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the log location.
 
-There are currently several (3) options whereby you can use this script. Method(s) 1+2 is/are recommended, the other methods may require further tinkering by yourself.
+There are currently several **(3) options whereby you can use this script.** Method(s) 1+2 is/are recommended, the other methods may require further tinkering by yourself.
 
-(1) Run the script directly (save as MonitorBlackout.ps1 and launch in powershell).
+**(1)** Run the script directly (save as MonitorBlackout.ps1 and launch in powershell).
 
-(2) Tested and working: powershell script (with VBScript Wrapper).
+**(2)** Tested and working: powershell script (with VBScript Wrapper).
 
-(2A) VBScript Wrapper:
+**(2A) **VBScript Wrapper:
 
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRIPT.PS1""", 0, False
 
 -> save as LaunchBlackout.vbs file
 
-(3) Run the script from Task scheduler (with or without the VBScript Wrapper).
+**(3) **Run the script from Task scheduler (with or without the VBScript Wrapper).
 
 # Current issues (v1.0.0, 09/01/2026)
 - The screen does not always black out after 6 seconds; it seems to take a multiple of 6 seconds (can be 12, 18 or longer) and sometimes requires disabling and re-enabling the automatic dimming with the hotkey.
