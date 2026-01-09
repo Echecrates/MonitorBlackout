@@ -1,9 +1,8 @@
 # MonitorBlackout
-This is a Powershell script that blacks out a (second) monitor. The script can be disabled/re-enabled with a hotkey (ctrl + alt + b) and it has a sytem tray icon that shows whether it is enabled or disabled.
-When the script is running and enabled, the chosen monitor goes black (is covered by a black window) after 6 seconds. You can "unblacken" the screen by right clicking anywhere on it.
+This is a Powershell script that blacks out a (second) monitor. Users can disable/re-enable the script with a hotkey (Ctrl + Alt + B); a system tray icon shows whether it is enabled or disabled.
+When enabled, after 6 seconds the chosen monitor is covered by a black window, giving the impression that the screen is dimmed or turned off. Users can undim the screen by right-clicking anywhere on it.
 
-The script is useful if you (for example) would like to use only one monitor and keep your workspace as free from distractions as possible.
-https://github.com/Echecrates/MonitorBlackout/blob/main/README.md
+The script is useful if you would like to (for example) use only one monitor and keep your workspace as free from distractions as possible.
 
 The script was created with help from Google Gemini and OpenAI ChatGPT.
 
@@ -29,3 +28,4 @@ WshShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""C:\LOCATION OF SCRI
 - The script does not always respond to the hotkey.
 - The black window is a powershell and application-level window; it would be better if it was not visible this way.
 - The system tray icon is not consistent. Sometimes it is a multicoloured shield, at other times it is a blue icon with an "i".
+- The hotkey may conflict with the Ctrol + Alt + B "Toggle Radeon Boost" Hotkey in AMD's Graphics Software
