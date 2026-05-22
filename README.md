@@ -1,13 +1,13 @@
 # MonitorBlackout
-MonitorBlackout is a Powershell script that automatically dims a (second) monitor. Users can disable/re-enable the automatic dimming with a hotkey (Ctrl + Alt + B) and a system tray icon shows whether automatic dimming is enabled or disabled.
+MonitorBlackout is a Powershell script that automatically dims a (second) monitor after 6 seconds, thereby helping you keep your focus on your work. Users can disable/re-enable the automatic dimming with a hotkey (Ctrl + Alt + B) and a system tray icon shows whether automatic dimming is enabled or disabled.
 When enabled, the chosen monitor is covered by a black window after 6 seconds, giving the impression that the screen is dimmed or turned off. Users can undim the screen by right-clicking anywhere on it.
 
 The script is useful if you would like to dim a specific monitor while keeping other monitor(s) on, thereby keeping your workspace free from the distraction of an unused but lit-up screen. It is more convenient than turning off the dimmed monitor, which requires a button press and potentially reorders windows.
 
-The script was created with help from Google Gemini and OpenAI ChatGPT. Users are advised to make changes to the script with the help of Gemini, since it provided most of the code.
+Google Gemini and OpenAI ChatGPT were helpful collaborators. Users are advised to make changes to the script with the help of Gemini, since it provided most of the code.
 
 # How to
-Users may have to edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the location where logging should be done. Gemini will be particularly helpful for edits.
+Users can edit the script for minor settings changes and tweaks, including setting the correct monitor to blackout and the location where logging should be done. Gemini will be particularly helpful for edits.
 
 There are **(3) tested ways of launching the script.** 
 
